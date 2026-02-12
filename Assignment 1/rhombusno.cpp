@@ -17,11 +17,11 @@ int main() {
         //increasing number
         for (int j = 0; j <= i; j++) 
             cout <<num++ << "  ";
-            num-=2;
+            num-=2;//fix num for reverse
         
         //decreasing number
         for (int j = 0; j < i; j++) 
-        cout<<num--<<" ";
+        cout<<num--<<" ";//num-- print backwards
         cout<<endl;
     }
 
