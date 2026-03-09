@@ -1,8 +1,4 @@
-#include <iostream>
-#include <vector>
-using namespace std;
-vector<int> merge(vector<int> a,vector<int> b){
-    int i=0,j=0;
+  int i=0,j=0;
     int n=a.size();
     int m=b.size();
     vector<int> nums;
@@ -33,5 +29,3 @@ int main() {
     for(int i=0;i<merge_array.size();i++){
         cout<<merge_array[i]<<" ";
     }
-    return 0;
-}
